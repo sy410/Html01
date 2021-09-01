@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>** Image, Link, Color **</title>
+</head>
+
+<!-- <body bgcolor="Aquamarine" background="../image/summersea.jpg"> -->
+<body bgcolor="Aquamarine">
+
+<font size="7" color="#4B0082">1. Image와 경로</font><p>
+
+<h2>1.1) 상대경로</h2>
+=> 현재 화일의 위치로부터 시작하는 상대 경로 ./ 현재위치, ../ 한단계 위의 위치 <br>
+<img alt="alt_X_출력되는 Message" title="상대경로Test" 
+	 src="../image/aaabbb.gif">&nbsp;&nbsp;
+<img src="../image/aaa.gif">&nbsp;&nbsp;
+<img src="../image/aaa.gif" width="100" height="100">&nbsp;&nbsp;
+<img src="../image/aaa.gif" width="50" height="100">&nbsp;&nbsp;
+<img src="../image/aaa.gif" width="100" height="50">&nbsp;&nbsp;
+<hr>
+<h2>1.2) 상대경로</h2>
+=> /프로젝트명으로 시작하며 webapp 경로는 넣지 않는다.<br>
+<img src="/Html01/image/bbb.gif">&nbsp;&nbsp;
+<img src="/Html01/image/ccc.gif">&nbsp;&nbsp;
+<img src="/Html01/image/ddd.gif">&nbsp;&nbsp;
+<img src="/Html01/image/eee.gif">&nbsp;&nbsp;
+<hr>
+
+<font size="7" color="#808000">2. Image와 Link</font><p>
+
+<a href="https://www.w3schools.com/colors/colors_groups.asp" target="_blank">[ColorPicker]</a><br>
+<a href="./ex01_start.html">[Start]</a><br>
+<a href="./ex02_SpecialChar.html"><img src="../image/bear.gif" width="70" height="70"></a><br>
+<a href="http://www.naver.com"><img src="../image/hhh.gif" width="70" height="70">[Naver]</a><br>
+</body>
+</html>
+<!-- *** target 속성
+     => target="_blank" : 새창으로 
+     => target="Frame_name"
+     이 속성은 frame1.html 작성 후 frame1.html  에서 Test  
+	 <a href="http://www.naver.com" target="info2"> 
+	=> a href="0904first.html" target="info2_blank" 
+	 <a href="http://www.naver.com" target="info2"> 
+	=> a href="0904first.html" target="info2_blank"
+	-->

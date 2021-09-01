@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>** 회원가입 **</title>
+</head>
+<body bgcolor="#F5F5F5">
+<h2><center>회원가입</h2>
+	
+<tr><td><label for="id"><b>아이디</b></label></td><br>
+   <td><input type="text" id="id" size="45" placeholder="4자 이상 입력하세요.">&nbsp;&nbsp;&nbsp;
+   	   <input type="button" value="중복확인"></td>
+</tr><br><p>
+
+<tr><td><label for="password"><b>비밀번호</b></label></td><br>
+   <td><input type="password" id="password" size="45" placeholder="영문/숫자/특수문자 중 2가지 이상 조합 (10~16자)">&nbsp;&nbsp;</td>
+</tr><br><p>
+
+<tr><td><label for="password"><b>비밀번호 재확인</b></label></td><br>
+   <td><input type="password" id="password" size="45">&nbsp;&nbsp;</td>
+</tr><br><p>
+
+<tr><td><label for="name"><b>이름</b></label></td><br>
+ 	<td><input type="text" id="name" size="45"></td>
+</tr><br><p>
+	
+<tr><td><label for="birthday"><b>생년월일</b></label></td><br>
+   <td><input type="text" id="birthday" maxlength="4" size="15" placeholder="년(4자)" >
+  <select id="month" name="month">
+  	<option value="a">월
+	<option value="b">1
+	<option value="c">2
+	<option value="d">3
+	<option value="e">4
+	<option value="f">5
+	<option value="g">6
+	<option value="h">7
+	<option value="i">8
+	<option value="j">9
+	<option value="k">10
+	<option value="l">11
+	<option value="n">12
+</select></td>
+<input type="text" id="birthday" maxlength="4" size="15" placeholder="일" >
+</tr><br><p>
+   
+<tr><td><b>성별</b></td><br>
+   <td> <select id="gender" name="gender">
+    <option value="A">성별
+	<option value="B">남자
+	<option value="C">여자
+	<option value="D">선택 안함
+</select></td>
+</tr><br><p>
+
+<tr><td><label for="email"><b>본인 확인 이메일</b><font color="gray" size=1>(선택)</font></label></td><br>
+   <td><input type="text" id="email" size="10" placeholder="선택입력">
+</tr><br><p>
+
+<tr><td id="text"><label for="phonenumber"><b>휴대전화</b></label></td><br>
+   <td> <select id="text" name="phone1">
+	<option value="A">대한민국+82
+	<option value="B">독일+49
+	<option value="C">멕시코+52
+	<option value="D">미국/캐나다+1
+	</select><br>
+    <input type="text" name="phone2" maxlength="16" size="30" placeholder="전화번호 입력">
+  	 <input type="button" value="인증번호 받기">
+     <input type="text" name="phone4" size=45 placeholder="인증번호를 입력하세요.">
+   </td>
+</tr><br><p>
+
+<center><br>
+<input type="submit" value="가입하기">
+
+
+</body>
+</html>

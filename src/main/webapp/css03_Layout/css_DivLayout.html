@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>** CSS Div , iFrame Layout **</title>
+</head>
+<!-- Layout은 LeftMenu 적용 Div 사용, LeftMenu는 펼침 메뉴 -->
+
+<style>
+	* { margin:0; border:0; padding:0; }
+	body { margin:0 auto; width:900px; }
+	
+	#header { width:100%; height:160px; background-color:gray; }
+	#nav { width:150px; height:500px; float:left; background-color:yellow; }
+	#section { width:750px; height:500px; float:left; background-color:aqua; }
+	#footer { width:100%; height:150px; background-color:pink; }
+	
+	iframe { width:100%; height:100%; }
+</style>
+
+<body>
+<div id="header">
+	<iframe src="./header.html"></iframe></div>
+<div id="nav">
+	<iframe src="./leftmenu.html"></iframe></div>
+<div id="section"> 
+	<iframe src="./main.html" name="main"></iframe></div>
+<div id="footer"> 
+	<iframe src="./footer.html"></iframe></div>
+
+</body>
+</html>

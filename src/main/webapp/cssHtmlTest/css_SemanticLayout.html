@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>** CSS Semantic , iFrame Layout **</title>
+<style>
+   *    { margin: 0; padding: 0; border: 0; }
+   body { width: 900px; margin: 0 auto; }
+   
+   header {width: 100%; height: 160px; background-color: Thistle ; }
+   nav    {width: 150px; height: 500px; background-color: Lavender ; float:left; }
+   section {width:750px; height:500px; background-color: AliceBlue ; float:left; } 
+   footer  {width:100%; height:150px; top:560px; left:0;}  
+   
+   iframe  { width: 100%; height: 100%; }
+   
+</style>
+</head>
+<body>
+<header>
+   <iframe src="header.html"></iframe>
+</header>
+<nav>
+   <iframe src="leftmenu.html"></iframe>
+</nav>
+<section>
+   <iframe src="main.html" name=main></iframe>
+</section>
+<footer>
+   <iframe src="footer.html"></iframe>
+</footer>
+</body>
+</html>

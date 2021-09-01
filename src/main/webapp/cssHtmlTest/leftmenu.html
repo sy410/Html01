@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>** 목록표시 Tag 와 Link **</title>
+<style>
+   * { padding: 3px; }
+   ul { list-style: none; }
+   ul ul { display: none;}
+   ul li:hover ul {display: block;}
+   ul li a:hover {color: green;}
+   ul a {
+      display: block;
+      line-height: 30px;
+      text-decoration: none;
+      font-size: 20px; font-weight: bold; color: gray;
+   }
+   .title { color: black; }
+</style>
+
+</head>
+<body>
+<br>
+<!-- <ul>
+<li><a class="title">GoodSite</a>
+      <ul>
+         <li><a href="https://oracle.com" target="_blank">Oracle</a>
+         <li><a href="http://docs.oracle.com/javase/8/docs/api" target="main">JavaAPI</a>
+         <li><a href="http://www.eclipse.org"  target=_blank">Eclips</a>
+         <li><a href="http://tomcat.apache.org"  target="_blank">Tomcat</a>
+      </ul>
+   </li> --> 
+ 
+   <ul>
+ 		<li><a href="./main.html" target="main">HOME</a> 
+  </ul>
+
+ <ul>  
+   <li><a class="title">HTML</a>
+   <ul>
+      <li><a href="../html01/ex01_start.html" target="main">Start</a>
+      <li><a href="../html01/ex02_SpecialChar.html" target="main">Special</a>
+      <li><a href="../html01/ex03_ImageLink.html" target="main">Image</a>
+   </ul>
+  
+   <li><a class="title">CSS</a>
+   <ul>
+      <li><a href="../css02_attr/ex03_box.html" target="main">Box</a>
+      <li><a href="../css02_attr/ex05_position03.html" target="main">Position</a>
+      <li><a href="../css02_attr/ex06_backImage02.html" target="main">BackImage</a>
+   </ul>
+   
+   <li><a class="title">MyMenu</a>
+   <ul>
+      <li><a href="../html02_tableForm/my_test01.html" target="main">Member</a>
+      <li><a href="../html02_tableForm/my_test02.html" target="main">Event</a>
+      <li><a href="../html02_tableForm/my_test03.html" target="main">[공사중]</a>
+   </ul> 
+  
+</ul>
+</body>
+<!-- 
+   ** target 속성
+      => 표시할 창 또는 frame에 관한 정보
+      => defalt:현재창, target=_blank:새창  또는 frame 이름의 위치 
+   -->
+</html>
